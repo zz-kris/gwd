@@ -1,0 +1,234 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	vertical-align: baseline;
+}
+html, body {
+	background: #eee;
+	font-size: 10px;
+	
+}
+img{
+	border: none;
+}
+p{
+	margin-bottom: 0;
+}
+a{
+	text-decoration: none;
+}
+a:active{text-decoration:none;}
+header{
+	width: 100%;
+	height: 4rem;
+	background: linear-gradient(to right, #FF6825,#FF127A); 
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	text-align: center;
+}
+header>span{
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 55%;
+	font-size: 1.5rem;
+	width: 30%;
+	margin: -1rem 0 0 -20%;
+	text-align: center;
+}
+.sousuo{
+	color: white;
+	position: absolute;
+	left: 91%;
+	top: 30%;
+	font-size: 1.8rem;
+	opacity: 0.8;
+}
+.fh{
+	width: 4rem;
+	height: 4rem;
+	background: url(../img/back.png) no-repeat center;
+	background-size: 80% 80%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+section{
+	width: 100%;
+	margin-top: 4rem;
+}
+.d1{
+	background-color: white;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 0.2rem dashed cornflowerblue;
+}
+.d1>span:first-child{
+	padding: 1rem;
+}
+.d1>span:first-child>p{
+	padding-left: 1rem;
+	font-size: 1.3rem;
+}
+.d1>span:first-child>div{
+	color: #AAAAAA;
+	letter-spacing: 0.1rem;
+	padding: 1rem 0;
+}
+.d1>span:last-child{
+	line-height: 5rem;
+	font-size: 1.4rem;
+	color: #aaa;
+	float: right;
+	padding-right: 1rem;
+}
+.jl{
+	padding: 0.1rem 0.2rem;
+	font-size: 0.5rem;
+	color: cornflowerblue;
+	border: 0.1rem solid cornflowerblue;
+}
+.mr{
+	padding: 0.1rem 0.2rem;
+	margin-left: 0.5rem;
+	font-size: 0.5rem;
+	color: #FF6825;
+	border: 0.1rem solid #FF6825;
+}
+.dx{
+	margin-top: 0.8rem;
+	background-color: white;
+}
+.dx>span{
+	padding: 1rem;
+	display: flex;
+}
+
+.hx{
+	width: 100%;
+	height: 0.1rem;
+	background-color: gainsboro;
+}
+.zc{
+	background-color: white;
+	width: 100%;
+	height: 7rem;
+	display: flex;
+	justify-content: space-between;
+}
+.jt{
+	line-height: 7rem;
+	font-size: 1.4rem;
+	color: #aaa;
+	float: right;
+	padding-right: 1rem;
+}
+.zc>span:first-child{
+	padding: 0 1rem;
+	/*line-height: 7rem;*/
+	padding-top: 3rem;
+	font-size: 1.3rem;
+}
+.zc>span:last-child{
+	text-align: right;
+	display: flex;
+}
+.zx{
+	line-height: 1.5rem;
+	padding: 1.5rem 1rem 0 0;
+	font-size: 0.9rem;
+}
+.haiyou{
+	width: 100%;
+	background-color: #FFF3DC;
+	color: red;
+}
+section>ul>li:nth-child(n+2){
+	margin-top: 0.7rem;
+}
+section>ul>li{
+	position: relative;
+	background-color: white;
+	list-style: none;
+	border-bottom: 0.1rem solid gainsboro;
+}
+section>ul>li>p{
+	font-size: 1.3rem;
+	padding: 1rem;
+}
+section>ul>li>p>span{
+	float: right;
+}
+section>ul>li>p>span>span{
+	display: inline-block;
+	padding-left: 1rem;
+	font-size: 1.4rem;
+	color: #aaa;
+	
+}
+.kg{
+	display: inline-block;
+	width: 20%;
+	height: 2rem;
+	background-color: gainsboro;
+}
+.zizi{
+	position: absolute;
+	top: 48%;
+	right: 23%;
+}
+.zou{
+	width: 13%;
+	height: 2.1rem;
+	position: absolute;
+	top: 40%;
+	right: 8%;
+	border-radius: 2rem;
+	background-color: gainsboro;
+}
+.zou>span{
+	box-shadow: 0 0 0.1rem black inset ;
+	margin-left: 10%;
+	width: 2.2rem;
+	height: 2.2rem;
+	display: inline-block;
+	background-color: white;
+	border-radius: 50%;
+}
+.zong{
+	color: #FF6825;
+	text-align: right;
+	position: absolute;
+	top: 39%;
+	right: 9%;
+}
+.suo{
+	width: 100%;
+	height: 3rem;
+}
+footer{
+	background-color: white;
+	width: 100%;
+	height: 4rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid #E9E9E9;
+}
+footer>span:first-child{
+	padding: 1rem;
+	color: #FE635E;
+}
+footer>a{
+	padding: 1.3rem 3rem;
+	background-color: #FE635E;
+	color: white;
+}
+

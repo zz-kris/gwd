@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	vertical-align: baseline;
+}
+html, body {
+	background: #eee;
+	font-size: 10px;
+	
+}
+img{
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+a:active{text-decoration:none;}
+p{
+	margin-bottom: 0;
+}
+header{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+}
+.top{
+	background: linear-gradient(to right, #FF6825,#FF127A);
+	width: 100%;
+	height: 4rem;
+	text-align: center;
+	color: white;
+	font-size: 1.8rem;
+	line-height: 5rem;
+}
+.bottom{
+	background-color: white;
+	width: 100%;
+	height: 3.5rem;
+	line-height: 3.5rem;
+	overflow: scroll;
+	
+}
+::-webkit-scrollbar{
+	display: none;
+}
+.bottom>ul{
+	width: 133%;
+	height: 3rem;
+	list-style: none;
+}
+.bottom>ul>li{
+	float: left;
+	height: 3rem;
+	margin-left: 2rem;
+}
+.bottom>ul>li>a{
+	color: black;
+}
+section{
+	width: 100%;
+	margin-top: 7.5rem;
+}
+.s{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+.s>.lunbo{
+	width: 200%;
+	list-style: none;
+	position: relative;
+	display: flex;
+}
+.b{
+	width: 15%;
+	height: 3%;
+	position: absolute;
+	top: 89%;
+	left: 41%;
+	list-style: none;
+}
+.b>li{
+	border-radius: 50%;
+	width: 7%;
+	height: 100%;
+	background-color: white;
+	margin-left: 10%;
+	float: left;
+}
+.b>.yd{
+	background-color: #FF127A;
+}
+.s2{
+	padding: 1rem;
+	background-color: white;
+}
+.stl{
+	width: 90%;
+	display: flex;
+}
+
+.section21{
+	width: 95%;
+	margin: auto;
+}
+.section22{
+	width: 95%;
+	margin: auto;
+	display: flex;
+}
+.botto{
+	background-color: white;
+	width: 100%;
+	overflow: scroll;
+	
+}
+::-webkit-scrollbar{
+	display: none;
+}
+.botto>ul{
+	width: 150%;
+	list-style: none;
+	display: flex;
+}
+.botto>ul>li{
+	padding: 1rem;
+}
+.section23{
+	width: 100%;
+}
+.section24{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+}
+.se3{
+	width: 100%;
+	height: 4rem;
+}
+
+
+footer{
+	width: 100%;
+	height: 4rem;
+	border-top: 1px solid #E9E9E9;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	z-index: 10;
+	line-height: 1.9rem;
+	display: flex;
+	justify-content: space-around;
+	background-color: rgba(250,250,250,0.97);
+}

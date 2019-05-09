@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	vertical-align: baseline;
+}
+html, body {
+	background: #eee;
+	font-size: 10px;
+	
+}
+img{
+	border: none;
+}
+a:active{text-decoration:none;}
+a{
+	text-decoration: none;
+}
+p{
+	margin-bottom: 0;
+}
+header{
+	width: 100%;
+	height: 4rem;
+	background: linear-gradient(to right, #FF6825,#FF127A);
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	text-align: center;
+	line-height: 4rem;
+}
+header>input{
+	color: white;
+	text-indent: 3rem;
+	font-size: 1.3rem;
+	width: 70%;
+	height: 75%;
+	background-color: rgba(250,250,250,0.4);
+	border-radius: 2rem;
+}
+.sousuo{
+	color: white;
+	position: absolute;
+	left: 18%;
+	top: 30%;
+	font-size: 1.5rem;
+	opacity: 0.6;
+}
+.se{
+	width: 100%;
+}
+.se1{
+	width: 100%;
+	background-color: white;
+}
+.section11{
+	position: relative;
+	overflow: hidden;
+	margin-top: 4rem;
+}
+.section11>.lunbo{
+	width: 400%;
+	list-style: none;
+	position: relative;
+	display: flex;
+}
+.b{
+	width: 30%;
+	height: 3%;
+	/*border: 0.1rem solid black;*/
+	position: absolute;
+	top: 89%;
+	left: 41%;
+	list-style: none;
+	/*display: flex;*/
+}
+.b>li{
+	border-radius: 50%;
+	width: 7%;
+	height: 100%;
+	background-color: white;
+	margin-left: 10%;
+	float: left;
+}
+.b>.yd{
+	background-color: #FF127A;
+}
+.section12{
+	display: flex;
+	justify-content: space-around;
+}	
+.section12>span>a{
+	color: black;
+	padding: 1rem 0;
+	display: inline-block;
+	text-align: center;
+}
+.section13{
+	display: flex;
+}
+.se2{
+	width: 100%;
+	padding: 1rem 0 0 0;
+	margin-top: 1rem;
+	background-color: white;
+}
+.section21{
+	width: 95%;
+	margin: auto;
+}
+.section22{
+	width: 95%;
+	margin: auto;
+	/*padding: 1rem 0;*/
+	display: flex;
+}
+.section23{
+	width: 100%;
+}
+.section24{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.bottom{
+	background-color: white;
+	width: 100%;
+	overflow: scroll;
+	
+}
+::-webkit-scrollbar{
+	display: none;
+}
+.bottom>ul{
+	width: 150%;
+	list-style: none;
+	display: flex;
+}
+.bottom>ul>li{
+	padding: 1rem;
+}
+
+.se3{
+	width: 100%;
+	height: 4rem;
+}
+footer{
+	width: 100%;
+	height: 4rem;
+	border-top: 1px solid #E9E9E9;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	z-index: 10;
+	line-height: 1.9rem;
+	display: flex;
+	justify-content: space-around;
+	background-color: rgba(250,250,250,0.97);
+}
+

@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	vertical-align: baseline;
+}
+html, body {
+	background: #eee;
+	font-size: 10px;
+	
+}
+img{
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+a:active{text-decoration:none;}
+p{
+	margin-bottom: 0;
+}
+header{
+	width: 100%;
+	height: 4rem;
+	background: linear-gradient(to right, #FF6825,#FF127A); 
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	text-align: center;
+}
+header>span{
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 55%;
+	font-size: 1.5rem;
+	width: 30%;
+	margin: -1rem 0 0 -20%;
+	text-align: center;
+}
+.sousuo{
+	color: white;
+	position: absolute;
+	left: 91%;
+	top: 30%;
+	font-size: 1.5rem;
+	opacity: 0.8;
+}
+.fh{
+	width: 4rem;
+	height: 4rem;
+	background: url(../img/back.png) no-repeat center;
+	background-size: 80% 80%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+section{
+	width: 100%;
+	margin-top: 4rem;
+}
+.qiang{
+	width: 100%;
+	height: 3rem;
+	background-color: white;
+	display: flex;
+	line-height: 1.5rem;
+}
+.qiang>span{
+	text-align: center;
+	flex-grow: 1;
+	font-size: 0.5rem;
+}
+.add{
+	background-color: #FF5E53;
+	color: white;
+}
+.haiyou{
+	width: 100%;
+	background-color: #FFF3DC;
+	color: red;
+}
+section>ul>li{
+	width: 100%;
+	list-style: none;
+	background-color: white;
+	display: none;
+}
+section>ul>li>div{
+	width: 100%;
+	padding: 1rem;
+	display: flex;
+	border-bottom: 0.1rem solid gainsboro;
+}
+section>ul>li:first-child{
+	display: block;
+}
+.ms{
+	float: right;
+	color: white;
+	background-color: #FF5E53;
+	padding: 0.5rem 1rem;
+	border-radius: 0.3rem;
+}
+section>ul>li>div>span>p:first-child{
+	padding: 0.5rem;
+	letter-spacing: 0.2rem;
+	font-size: 1.1rem;
+}
+.js{
+	float: right;
+	color: gray;
+	font-size: 0.5rem;
+}
+
+

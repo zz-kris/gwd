@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	vertical-align: baseline;
+}
+html, body {
+	background: #eee;
+	font-size: 10px;
+	
+}
+img{
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+a:active{text-decoration:none;}
+header{
+	width: 100%;
+	height: 4rem;
+	background: linear-gradient(to right, #FF6825,#FF127A); 
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	text-align: center;
+}
+header>span{
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 55%;
+	font-size: 1.5rem;
+	width: 30%;
+	margin: -1rem 0 0 -20%;
+	text-align: center;
+}
+.sousuo{
+	color: white;
+	position: absolute;
+	left: 91%;
+	top: 30%;
+	font-size: 1.5rem;
+	opacity: 0.8;
+}
+.fh{
+	width: 4rem;
+	height: 4rem;
+	background: url(../img/back.png) no-repeat center;
+	background-size: 80% 80%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+section{
+	width: 100%;
+	margin-top: 8em;
+}
+.section2{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 4rem;
+	z-index: 10;
+}
+.bottom{
+	background-color: white;
+	width: 100%;
+	height: 3.5rem;
+	line-height: 3.5rem;
+	overflow: scroll;
+	
+}
+::-webkit-scrollbar{
+	display: none;
+}
+.bottom>ul{
+	width: 133%;
+	list-style: none;
+}
+.bottom>ul>li{
+	float: left;
+	height: 3rem;
+	margin-left: 2rem;
+}
+.bottom>ul>li>a{
+	color: black;
+}
+.section3{
+	width: 100%;
+	/*margin-top: 3.5rem;*/
+}
+.section24{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.section24>span{
+	background-color: white;
+	width: 48%;
+	margin-left: 0.5rem;
+	margin-bottom: 0.5rem;
+	position: relative;
+}
+.section24>span>p{
+	padding: 0 1rem;
+}
+.dou{
+	font-size: 0.5rem;
+	padding: 0.2rem;
+	color: #FF6825;
+	border: 0.1rem solid #FF6825;
+	position: absolute;
+	top: 0.5rem;
+	left: 0.5rem;
+}
