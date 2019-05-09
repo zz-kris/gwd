@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/shezhi.css"/>
+	</head>
+	<body>
+		<header>
+			<a href="#" class="fh"></a>
+			<span>设置</span>
+			<div class="glyphicon glyphicon-option-horizontal sousuo"></div>
+		</header>
+		<section>
+			<ul>
+				<li>
+					<p>个人信息 <span class="glyphicon glyphicon-menu-right"></span></p>
+				</li>
+				<li>
+					<p>我的实名认证 <span class="glyphicon glyphicon-menu-right"></span></p>
+				</li>
+				<li>
+					<p>我的收货地址 <span class="glyphicon glyphicon-menu-right"></span></p>
+				</li>
+				<li>
+					<p>消息推送设置 <span class="glyphicon glyphicon-menu-right"></span></p>
+				</li>
+				<li>
+					<p>清除缓存 <span class="glyphicon glyphicon-menu-right"></span></p>
+				</li>
+				<li>
+					<p>弹幕设置 <span class="glyphicon glyphicon-menu-right"></span></p>
+				</li>
+				<li style="margin-top: 1rem;">
+					<p>关于我们 <span class="glyphicon glyphicon-menu-right"></span></p>
+				</li>
+			</ul>
+			<div class="tc">
+				<span>退出当前帐号</span>
+			</div>
+			
+		</section>
+		
+	</body>
+	<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/remstyle.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('header>a').click(function(){
+				window.history.go(-1); 
+			})
+		})
+	</script>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/tianxiedingdan.css"/>
+	</head>
+	<body>
+		<header>
+			<a href="#" class="fh"></a>
+			<span>填写订单</span>
+			<div class="glyphicon glyphicon-comment sousuo"></div>
+		</header>
+		<section>
+			<div class="d1">
+				<span>
+					<p><b>朱梦飞 185****6698</b> <span class="jl">家里</span><span class="mr">默认</span></p>
+					<div class="glyphicon glyphicon-map-marker">河南省郑州市中牟县青年路38号 </div>
+				</span>
+				<span class="glyphicon glyphicon-menu-right"></span>
+			</div>
+			<div class="dx">
+				<span>
+					<img src="img/sf-1.jpg" width="23%" height="19%"/>
+					<span>
+						<p style="padding: 0.5rem;letter-spacing: 0.1rem;">2016夏天新款男士短袖t恤额青少年韩版修身印花圆领半袖男装衣服潮领半袖男装衣服潮领半袖男装衣服潮</p>
+						<p style="color: red;font-size: 1.2rem;padding: 0.5rem;">￥399.99 <s style="color: gray;font-size: 0.5rem;">￥495.65</s><span style="float: right;color: gray;font-size: 0.5rem;">2.0802kgx1</span></p>
+						<p style="padding: 0.5rem;"><img src="img/bag1.png" width="6%"/><img src="img/bag2.png" width="6%"/></p>
+						
+					</span>
+				</span>
+				<div class="hx"></div>
+			</div>
+			<div class="zc">
+				<span>
+					<p>支持配送</p>
+				</span>
+				<span>
+					<span class="zx">
+						<p>在线支付</p>
+						<p>顺丰快递</p>
+						<p>11月12日[周五]09：00-15：00</p>
+					</span>
+					<span class="glyphicon glyphicon-menu-right jt"></span>
+				</span>
+			</div>
+			<div class="haiyou">
+				<p style="padding: 1rem 2rem;">您的收货时间为工作日，请您做好收货准备。</p>
+			</div>
+			<ul>
+				<li>
+					<p>发票 <span>个人<span class="glyphicon glyphicon-menu-right"></span></span></p>
+				</li>
+				<li ><p>运费险 <br /><a style="color: darkgray;">7天内退货，15天内可换货</a>
+					<span><span class="glyphicon glyphicon-menu-right"></span></span></p>
+					<div class="zou">
+						<span></span>
+					</div>
+					<div class="zizi">
+						￥0.50
+					</div>
+				</li>
+				<li>
+					<p>优惠券 <span>不可用<span class="glyphicon glyphicon-menu-right"></span></span></p>
+				</li>
+				<li>
+					<p>礼品卡 <span>不可用<span class="glyphicon glyphicon-menu-right"></span></spa
+				</li>
+				<li>
+					<p>积分 <span>457684<span class="glyphicon glyphicon-menu-right"></span></spa
+				</li>
+				<li>
+					<div class="zong">
+						￥2899.00 <br />+￥0.00
+					</div>
+					<p><b>商品金额</b><br />运费（总重：1.978kg）<span><span class="glyphicon glyphicon-menu-right"></span></span></p>
+				</li>
+				
+			</ul>
+			<div class="suo">
+				
+			</div>
+		</section>
+		<footer>
+			<span>实付款：￥399:00</span>
+			<a href="shouyintai.html">提交订单</a>
+		</footer>
+		
+	</body>
+	<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/remstyle.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('header>a').click(function(){
+				window.history.go(-1); 
+			})
+			$(".zou").click(function(){
+				var z =$(this).children('span').css('margin-left');
+//				console.log(z);
+				if (z=='4.875px') {
+					$(this).css("background-color","red")
+				    $(this).children('span').animate({"margin-left":"50%"},300);
+				}else{
+					$(this).css("background-color","gainsboro")
+				    $(this).children('span').animate({"margin-left":"10%"},300);
+				}
+				
+				
+				
+				
+			})
+			
+		})
+	</script>
+</html>

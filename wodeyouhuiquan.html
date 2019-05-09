@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/wodeyouhuiquan.css"/>
+	</head>
+	<body>
+		<header>
+			<a href="#" class="fh"></a>
+			<span>我的优惠券</span>
+			<div class="glyphicon glyphicon-search sousuo"></div>
+		</header>
+		<section>
+			<div class="qiang">
+				<span class="add">未使用</span>
+				<span>已使用</span>
+				<span>已过期</span>
+				
+			</div>
+			<div class="haiyou">
+				<p style="padding: 1rem 2rem;">兑换码现已关闭，请使用优惠券</p>
+			</div>
+			<ul>
+				<li>
+					
+				</li>
+				<li>
+					
+				</li>
+				<li>
+					
+				</li>
+				
+			</ul>
+			
+		</section>
+		
+		
+		
+	</body>
+	<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/remstyle.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('header>a').click(function(){
+				window.history.go(-1); 
+			})
+			$(".qiang>span").click(function(){
+				$(this).addClass('add').siblings().removeClass('add');
+				var a=$(this).index();
+				$("section>ul>li").eq(a).show().siblings().hide();
+				
+			})
+			
+			
+		})
+	</script>
+</html>

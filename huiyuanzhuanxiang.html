@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/huiyuanzhuanxiang.css"/>
+	</head>
+	<body>
+		<header>
+			<a href="#" class="fh"></a>
+			<span>铂金会员</span>
+			<div class="glyphicon glyphicon-option-horizontal sousuo"></div>
+		</header>
+		<section>
+			<div class="qiang">
+				<span class="add">专享价</span>
+				<span>免税区</span>
+				<span>运费券</span>
+				<span>专享服</span>
+			</div>
+			
+			<ul>
+				<li>
+					<div><span style="width: 50%;">
+						<img src="img/sf-2.jpg" width="95%"/>
+						<p style="color: dimgray;line-height: 1.4rem;">KOBE LETTUCE 秋冬新款 女士 日系甜美纯色半高领宽松套头...</p>
+						<p style="color: lightslategray;font-size: 1rem;"><span style="color: #FE635E;font-size: 1.4rem;">￥399.99</span><s>￥495.65</s><span style="float: right;font-size: 1rem;">986评论</span></p>
+					</span></div>
+				</li>
+				<li>
+					<div><span style="width: 50%;">
+						<img src="img/sf-6.jpg" width="95%"/>
+						<p style="color: dimgray;line-height: 1.4rem;">KOBE LETTUCE 秋冬新款 女士 日系甜美纯色半高领宽松套头...</p>
+						<p style="color: lightslategray;font-size: 1rem;"><span style="color: #FE635E;font-size: 1.4rem;">￥399.99</span><s>￥495.65</s><span style="float: right;font-size: 1rem;">986评论</span></p>
+					</span></div>
+				</li>
+				<li>
+					<div><span style="width: 50%;">
+						<img src="img/sf-5.jpg" width="95%"/>
+						<p style="color: dimgray;line-height: 1.4rem;">KOBE LETTUCE 秋冬新款 女士 日系甜美纯色半高领宽松套头...</p>
+						<p style="color: lightslategray;font-size: 1rem;"><span style="color: #FE635E;font-size: 1.4rem;">￥399.99</span><s>￥495.65</s><span style="float: right;font-size: 1rem;">986评论</span></p>
+					</span></div>
+				</li>
+				<li>
+					<div><span style="width: 50%;">
+						<img src="img/sf-7.jpg" width="95%"/>
+						<p style="color: dimgray;line-height: 1.4rem;">KOBE LETTUCE 秋冬新款 女士 日系甜美纯色半高领宽松套头...</p>
+						<p style="color: lightslategray;font-size: 1rem;"><span style="color: #FE635E;font-size: 1.4rem;">￥399.99</span><s>￥495.65</s><span style="float: right;font-size: 1rem;">986评论</span></p>
+					</span></div>
+				</li>
+				
+			</ul>
+			
+		</section>
+		
+	</body>
+	<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/remstyle.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('header>a').click(function(){
+				window.history.go(-1); 
+			})
+			
+			$(".qiang>span").click(function(){
+				$(this).addClass('add').siblings().removeClass('add');
+				var a=$(this).index();
+				$("section>ul>li").eq(a).show().siblings().hide();
+				
+			})
+			
+		})
+	</script>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/shouyintai.css"/>
+	</head>
+	<body>
+		<header>
+			<a href="#" class="fh"></a>
+			<span>收银台</span>
+			<div class="glyphicon glyphicon-comment sousuo"></div>
+		</header>
+		<section>
+			<div class="zf">
+				<p>需要支付： <span style="color: #FE635E;font-size: 1.4rem;padding-right: 2rem;">375.00元</span></p>
+			</div>
+			<div class="yy">
+				<p><img src="img/pay.png" width="20%"/></p>
+			</div>
+			<ul>
+				<li>
+					<span>
+						<img src="img/apy-1.png" width="20%" height="100%"/>
+						<span>
+							<p>工商银行</p>
+							<p style="color: #777;font-size: 0.6rem;">储蓄卡(8890)</p>
+						</span>
+					</span>
+					<div class="dui">
+						<img src="img/icon_radio4.png" width="50%" height="50%"/>
+					</div>
+					<div class="zizi">
+						每单最高减111
+					</div>
+				</li>
+				<li>
+					<span>
+						<img src="img/apy-2.png" width="20%" height="100%"/>
+						<span>
+							<p>农业银行</p>
+							<p style="color: #777;font-size: 0.6rem;">储蓄卡(8890)</p>
+						</span>
+					</span>
+					<div class="dui">
+						<img src="img/icon_radio3.png" width="50%" height="50%"/>
+					</div>
+					
+				</li>
+				<li>
+					<span>
+						<img src="img/apy-3.png" width="20%" height="100%"/>
+						<span>
+							<p>招商银行</p>
+							<p style="color: #777;font-size: 0.6rem;">储蓄卡(8890)</p>
+						</span>
+					</span>
+					<div class="dui">
+						<img src="img/icon_radio3.png" width="50%" height="50%"/>
+					</div>
+					
+				</li>
+				<li>
+					<p style="background-color: #eee;padding: 1rem;width: 100%;">其它支付方式</p>
+				</li>
+				<li>
+					<span>
+						<img src="img/apy-4.png" width="20%" height="100%"/>
+						<span>
+							<p>支付宝支付</p>
+							<p style="color: #777;font-size: 0.6rem;">支付宝安全支付</p>
+						</span>
+					</span>
+					<div class="dui">
+						<img src="img/icon_radio3.png" width="50%" height="50%"/>
+					</div>
+					<div class="zizi">
+						花呗分期
+					</div>
+				</li>
+				<li>
+					<span>
+						<img src="img/apy-5.png" width="20%" height="100%"/>
+						<span>
+							<p>微信支付</p>
+							<p style="color: #777;font-size: 0.6rem;">微信安全支付</p>
+						</span>
+					</span>
+					<div class="dui">
+						<img src="img/icon_radio3.png" width="50%" height="50%"/>
+					</div>
+				</li>
+				<li>
+					<span>
+						<img src="img/apy-6.png" width="20%" height="100%"/>
+						<span>
+							<p>Apple Pay</p>
+							<p style="color: #777;font-size: 0.6rem;">Apple Pay专属安全支付</p>
+						</span>
+					</span>
+					<div class="dui">
+						<img src="img/icon_radio3.png" width="50%" height="50%"/>
+					</div>
+					
+				</li>
+			</ul>
+			
+			
+		</section>
+		<footer>
+			银行卡支付 375.00元
+		</footer>
+		
+		
+	</body>
+	<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/remstyle.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('header>a').click(function(){
+				window.history.go(-1); 
+			})
+			
+			$(".dui").click(function(){
+				var m=$(this).children('img').attr('src');
+//				console.log(m);
+				if (m=='img/icon_radio3.png') {
+					$(this).children('img').attr('src','img/icon_radio4.png');
+					$(this).parent().siblings().children('.dui').children('img').attr('src','img/icon_radio3.png')
+					
+				}else{
+					$(this).children('img').attr('src','img/icon_radio3.png');
+					$("ul>li:first-child").children('.dui').children('img').attr('src','img/icon_radio4.png');
+				}
+				
+			})
+			
+			
+		})
+	</script>
+</html>
